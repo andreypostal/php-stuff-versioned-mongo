@@ -1,0 +1,21 @@
+{
+  "name": "andreypostal/php-stuff-versioned-mongo",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrey Postal",
+      "email": "andreypostal@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Andrey\\StuffVersioned\\Backend\\Mongo\\": "src/"
+    }
+  },
+  "require": {
+    "andreypostal/php-stuff-versioned": "^0.0.1",
+    "andreypostal/php-pancake-object": "^0.0.4",
+    "mongodb/mongodb": "^2.0"
+  }
+}

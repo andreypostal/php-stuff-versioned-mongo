@@ -1,0 +1,233 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "88db9ecceeb028e33a3fdf6fd328bad9",
+    "packages": [
+        {
+            "name": "andreypostal/php-pancake-object",
+            "version": "v0.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andreypostal/php-pancake-object.git",
+                "reference": "3186cd1ff1176a4fb03bf69a821107cbc791fab7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/andreypostal/php-pancake-object/zipball/3186cd1ff1176a4fb03bf69a821107cbc791fab7",
+                "reference": "3186cd1ff1176a4fb03bf69a821107cbc791fab7",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^11.4@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Andrey\\PancakeObject\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrey Postal",
+                    "email": "andreypostal@gmail.com"
+                }
+            ],
+            "description": "Light and simple helper to work with value objects by providing a serializer and hydrator using PHP Attributes.",
+            "keywords": [
+                "hydrator",
+                "parser",
+                "serializer",
+                "value-objects"
+            ],
+            "support": {
+                "issues": "https://github.com/andreypostal/php-pancake-object/issues",
+                "source": "https://github.com/andreypostal/php-pancake-object/tree/v0.0.4"
+            },
+            "time": "2025-03-31T16:21:26+00:00"
+        },
+        {
+            "name": "andreypostal/php-stuff-versioned",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andreypostal/php-stuff-versioned.git",
+                "reference": "40498293ae8cf473b36f794a3fecdc0f17efc047"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/andreypostal/php-stuff-versioned/zipball/40498293ae8cf473b36f794a3fecdc0f17efc047",
+                "reference": "40498293ae8cf473b36f794a3fecdc0f17efc047",
+                "shasum": ""
+            },
+            "require": {
+                "psr/log": "^3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.1.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Andrey\\StuffVersioned\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrey Postal",
+                    "email": "andreypostal@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/andreypostal/php-stuff-versioned/issues",
+                "source": "https://github.com/andreypostal/php-stuff-versioned/tree/v0.0.1"
+            },
+            "time": "2025-04-14T19:20:14+00:00"
+        },
+        {
+            "name": "mongodb/mongodb",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mongodb/mongo-php-library.git",
+                "reference": "04cd7edc6a28950e3fab6eccb2869d72a0541232"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mongodb/mongo-php-library/zipball/04cd7edc6a28950e3fab6eccb2869d72a0541232",
+                "reference": "04cd7edc6a28950e3fab6eccb2869d72a0541232",
+                "shasum": ""
+            },
+            "require": {
+                "composer-runtime-api": "^2.0",
+                "ext-mongodb": "^2.0",
+                "php": "^8.1",
+                "psr/log": "^1.1.4|^2|^3"
+            },
+            "replace": {
+                "mongodb/builder": "*"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^12.0",
+                "phpunit/phpunit": "^10.5.35",
+                "rector/rector": "^1.2",
+                "squizlabs/php_codesniffer": "^3.7",
+                "vimeo/psalm": "6.5.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions.php"
+                ],
+                "psr-4": {
+                    "MongoDB\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Braun",
+                    "email": "andreas.braun@mongodb.com"
+                },
+                {
+                    "name": "Jeremy Mikola",
+                    "email": "jmikola@gmail.com"
+                },
+                {
+                    "name": "Jérôme Tamarelle",
+                    "email": "jerome.tamarelle@mongodb.com"
+                }
+            ],
+            "description": "MongoDB driver library",
+            "homepage": "https://jira.mongodb.org/browse/PHPLIB",
+            "keywords": [
+                "database",
+                "driver",
+                "mongodb",
+                "persistence"
+            ],
+            "support": {
+                "issues": "https://github.com/mongodb/mongo-php-library/issues",
+                "source": "https://github.com/mongodb/mongo-php-library/tree/2.0.0"
+            },
+            "time": "2025-04-10T08:34:11+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
+                "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/3.0.2"
+            },
+            "time": "2024-09-11T13:17:53+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
