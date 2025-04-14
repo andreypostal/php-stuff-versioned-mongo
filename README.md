@@ -5,7 +5,7 @@ This is a backend implementation for the library [PHP Stuff Versioned](https://g
 ## Installation
 
 ```
-composer require andreypostal/php-stuff-versioned
+composer require andreypostal/php-stuff-versioned-mongo
 ```
 
 ## Usage
