@@ -16,6 +16,6 @@
   "require": {
     "andreypostal/php-stuff-versioned": "^0.0.1",
     "andreypostal/php-pancake-object": "^0.0.4",
-    "mongodb/mongodb": "^1.17.0"
+    "mongodb/mongodb": "^2.1.0"
   }
 }
